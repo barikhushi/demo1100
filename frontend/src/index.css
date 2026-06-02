@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-darkBg text-slate-100 font-sans antialiased overflow-x-hidden;
+    background-image: 
+      radial-gradient(at 10% 20%, rgba(99, 102, 241, 0.05) 0px, transparent 50%),
+      radial-gradient(at 90% 80%, rgba(13, 242, 201, 0.05) 0px, transparent 50%);
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-darkBg;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-slate-800 rounded-full border border-slate-700/50 hover:bg-slate-700;
+  }
+}
+
+@layer components {
+  /* Premium Glassmorphism styling */
+  .glass-panel {
+    background: rgba(15, 23, 42, 0.45);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+    @apply rounded-2xl transition-all duration-300;
+  }
+
+  .glass-panel-hover {
+    @apply hover:border-slate-700/60 hover:shadow-neon-indigo hover:bg-slate-900/50;
+  }
+
+  .glass-input {
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    @apply rounded-xl px-4 py-3 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-accentTeal/80 focus:ring-1 focus:ring-accentTeal/30 transition-all duration-300;
+  }
+
+  .glow-text-teal {
+    text-shadow: 0 0 10px rgba(13, 242, 201, 0.4);
+  }
+
+  .glow-text-indigo {
+    text-shadow: 0 0 10px rgba(99, 102, 241, 0.4);
+  }
+
+  /* Interactive Button with Gradient Border */
+  .btn-gradient {
+    position: relative;
+    background: linear-gradient(135deg, rgba(99, 102, 241, 0.9) 0%, rgba(139, 92, 246, 0.9) 100%);
+    @apply px-6 py-3 rounded-xl font-medium tracking-wide shadow-lg hover:shadow-accentIndigo/30 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200;
+  }
+
+  .btn-outline {
+    border: 1px solid rgba(13, 242, 201, 0.3);
+    @apply px-6 py-3 rounded-xl font-medium tracking-wide hover:border-accentTeal hover:bg-accentTeal/5 active:scale-[0.98] transition-all duration-200;
+  }
+
+  /* Timeline line gradient */
+  .timeline-gradient {
+    background: linear-gradient(to bottom, #6366f1 0%, #0df2c9 100%);
+  }
+
+  /* Interactive 3D Card tilt default definitions */
+  .tilt-container {
+    perspective: 1000px;
+    transform-style: preserve-3d;
+  }
+}
+
+/* Custom Liquid Splash Blob Animations */
+@keyframes blob-pivot {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.95);
+  }
+}
+
+.animate-blob-1 {
+  animation: blob-pivot 10s ease-in-out infinite;
+}
+
+.animate-blob-2 {
+  animation: blob-pivot 14s ease-in-out infinite alternate;
+}
+
+/* Water Ripple effect animation */
+.ripple-effect {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(13, 242, 201, 0.45);
+  transform: scale(0);
+  animation: ripple 0.75s ease-out;
+  pointer-events: none;
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(3.5);
+    opacity: 0;
+  }
+}

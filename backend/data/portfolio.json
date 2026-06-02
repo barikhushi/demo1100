@@ -1,0 +1,157 @@
+{
+  "profile": {
+    "name": "Khushi Bari",
+    "title": "Full-Stack Developer & AI Enthusiast",
+    "location": "Pune, India 411057",
+    "nativeLocation": "Shirpur, India",
+    "email": "khushibari2421@gmail.com",
+    "phone": "+919422905210",
+    "linkedin": "https://www.linkedin.com/in/khushi-bari-225686347",
+    "github": "https://github.com/",
+    "summary": "Innovative full-stack developer with expertise in Python, Django, and React. Proficient in AI/ML technologies including Generative AI, RAG, and Agentic AI. Proven track record of delivering high-impact solutions through strategic collaboration, technical excellence, and problem-solving. Passionate about building scalable applications and leveraging emerging technologies to drive business value.",
+    "languages": ["English", "Hindi", "Marathi"]
+  },
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": [
+        { "name": "React.js", "level": 90 },
+        { "name": "JavaScript (ES6+)", "level": 85 },
+        { "name": "HTML5 / CSS3", "level": 95 },
+        { "name": "Tailwind CSS", "level": 80 },
+        { "name": "Bootstrap", "level": 90 }
+      ]
+    },
+    {
+      "category": "Backend & DB",
+      "items": [
+        { "name": "Node.js", "level": 80 },
+        { "name": "Express.js", "level": 80 },
+        { "name": "Python", "level": 85 },
+        { "name": "Django", "level": 80 },
+        { "name": "REST APIs", "level": 85 },
+        { "name": "Database Management (MySQL/NoSQL)", "level": 80 }
+      ]
+    },
+    {
+      "category": "AI / ML & Advanced",
+      "items": [
+        { "name": "Generative AI", "level": 75 },
+        { "name": "RAG (Retrieval-Augmented Generation)", "level": 70 },
+        { "name": "Agentic AI", "level": 65 },
+        { "name": "Machine Learning", "level": 70 },
+        { "name": "Neural Networks", "level": 60 }
+      ]
+    },
+    {
+      "category": "Microsoft 365 & Tools",
+      "items": [
+        { "name": "PowerApps", "level": 80 },
+        { "name": "Power Automate", "level": 85 },
+        { "name": "Power BI", "level": 75 },
+        { "name": "SharePoint", "level": 80 },
+        { "name": "Git / GitHub", "level": 85 }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Nebula Technology",
+      "location": "Pune, India",
+      "role": "React Developer Intern",
+      "duration": "Jan 2026 - Apr 2026",
+      "highlights": [
+        "Developed responsive web applications using React.js to provide excellent cross-platform accessibility.",
+        "Created highly modular, reusable UI components for improved code maintainability and team velocity.",
+        "Utilized CSS and Bootstrap framework for clean, fluid user interface layouts and aesthetic styling."
+      ]
+    },
+    {
+      "company": "Skillcraft Technology",
+      "location": "Remote",
+      "role": "Web Developer Intern",
+      "duration": "Oct 2025 - Nov 2025",
+      "highlights": [
+        "Built dynamic calculator web application using raw JavaScript, highlighting core event handling skills.",
+        "Created structured To-Do List Application supporting interactive task creation, completion, and local states.",
+        "Designed and published multiple responsive landing pages using clean semantic HTML5 and vanilla CSS3."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Weather Application",
+      "subtitle": "React.js Weather Dashboard",
+      "description": "Developed an interactive weather application that provides real-time weather analytics for multiple search locations. Fetches conditions such as current temperature, humidity, wind velocity, and visual indicators using a public weather API.",
+      "tech": ["React.js", "JavaScript", "HTML5", "CSS3", "Weather API"],
+      "demoUrl": "#",
+      "githubUrl": "#"
+    },
+    {
+      "title": "Student Record Management System",
+      "subtitle": "Full-Stack SRMS",
+      "description": "Engineered a database-driven Student Record Management System designed to save, catalog, search, and update critical student records. Built with robust backend handling and administrative authentication flows.",
+      "tech": ["HTML5", "CSS3", "JavaScript", "PHP", "MySQL"],
+      "demoUrl": "#",
+      "githubUrl": "#"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Computer Applications (MCA)",
+      "institution": "RCPET's IMRD College, Shirpur",
+      "duration": "Expected June 2026",
+      "details": "Focusing on advanced computer science principles, database architectures, software engineering, and web development methodologies."
+    },
+    {
+      "degree": "Bachelor of Computer Applications (BCA)",
+      "institution": "KES, Pratap College, Amalner",
+      "duration": "May 2024",
+      "details": "Graduated with strong foundation in database management systems, programming basics (C++, Java, Python), and modern web layout design."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Java and C++ Complete Course for Beginners",
+      "issuer": "Udemy",
+      "date": "2024"
+    },
+    {
+      "name": "CSS, JavaScript, PHP and Python Programming All In One Course",
+      "issuer": "Udemy",
+      "date": "2024"
+    },
+    {
+      "name": "Certificate of Completion of Java Training",
+      "issuer": "Spoken Tutorial IIT Bombay",
+      "date": "2024"
+    },
+    {
+      "name": "Certificate of Completion of Bootstrap Training",
+      "issuer": "Spoken Tutorial IIT Bombay",
+      "date": "2024"
+    },
+    {
+      "name": "Complete MySQL Bootcamp: Learn SQL Step by Step",
+      "issuer": "Udemy",
+      "date": "2024"
+    },
+    {
+      "name": "Java Object-Oriented Programming",
+      "issuer": "LinkedIn Learning",
+      "date": "2025"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Best Application Developer Award",
+      "issuer": "Computer Society of India (CSI)",
+      "description": "Recognized for presenting excellent application design and development skills under national chapter guidelines."
+    },
+    {
+      "name": "Project Competition Award winner",
+      "issuer": "IMRD College / CSI Regional Division",
+      "description": "Awarded first place for designing a functional, user-oriented application solving modern localized tasks."
+    }
+  ]
+}
