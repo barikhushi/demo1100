@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Khushi Bari - Full-Stack Developer Portfolio
 
 This is a premium, high-performance, responsive full-stack developer portfolio for Khushi Bari. It features a React-based frontend styled with Tailwind CSS, fluid animations with Framer Motion, 3D tilt effects, and an Express/Node.js backend with structured dynamic API loading.
@@ -55,3 +56,6 @@ Make sure you have [Node.js](https://nodejs.org) installed on your system.
 3. **Interactive Water Ripple Background**: Clicking anywhere on the layout (excluding input elements/links) registers an expanding liquid water-drop ripple.
 4. **Input Validated Form handling**: The contact form features input-sanitizing validation rules on the backend and instant success/error feedback alerts on the frontend.
 5. **SEO & High Performance Ready**: Includes custom meta titles, descriptions, preconnected Google fonts, and modular assets for optimal page loading metrics.
+=======
+# demo1100
+>>>>>>> 89bc380548ee3739f094257e7a66b6a180835847
